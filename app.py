@@ -15,11 +15,6 @@ app.secret_key = 'redouane'
 api = Api(app)
 
 
-@app.before_first_request
-def create_tables():
-    db.create_all()
-
-
 # JWT create a new endpoint ../auth
 jwt = JWT(app, authenticate, identity)
 
