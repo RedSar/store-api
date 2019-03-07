@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+test.py
+create_tables.py
+data.db
